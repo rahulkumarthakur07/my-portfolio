@@ -4,7 +4,7 @@
 
   "version": "0.1.0",
 
-  "homepage": "https://appwithrahul.github.io",
+  "homepage": "https://appwithrahul.github.io/portfolio",
 
   "private": true,
 
@@ -57,12 +57,9 @@
     "test": "react-scripts test",
 
     "eject": "react-scripts eject",
-
     "predeploy": "npm run build",
-
     "deploy": "gh-pages -d build"
-
-  },
+},
 
   "eslintConfig": {
 
