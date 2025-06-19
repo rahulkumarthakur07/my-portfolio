@@ -1,4 +1,5 @@
 import React from "react";
+import { RiAdminFill } from "react-icons/ri";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
@@ -6,6 +7,8 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 
 function Footer() {
   let date = new Date();
@@ -60,6 +63,12 @@ function Footer() {
               >
                 <AiFillInstagram />
               </a>
+            </li>
+            <li className="social-icons">
+              
+              <Link to="/admin"><RiAdminFill /></Link>
+                
+
             </li>
           </ul>
         </Col>
